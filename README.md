@@ -29,23 +29,10 @@ The application is built with a user-friendly interface using Streamlit, making 
 # Setup and Installation ⚙️
 To run this project locally, you will need to have Python 🐍 and Ollama 🦙 installed.
 
-## **1. Prerequisites: Install Ollama 📥**
+## **1. Prerequisites: Install Dependencies 📥**
 
-You must have Ollama installed and running on your machine. You also need to have the `llama3.1` model pulled.  
-***NOTE: You can use any model you like it doesn't have to be `Llama3.1`***
-
- Install Ollama from: https://ollama.com/
-
- Pull the required model:
-`ollama pull llama3.1`
-
-```python
-import streamlit as st
-
-st.title("My Awesome App")
-url = st.text_input("Enter a URL:")
-st.write(f"The URL you entered is: {url}")
-```
+Download the given `req.txt` file on you machine run: `pip install -r req.txt`  
+It'll install all the required libraries on your machine.  You might as well crate a virtual environment on your machine before installing the dependencies by  `python -m venv {your_venv_name}`.  
 
 
 

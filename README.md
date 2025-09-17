@@ -35,7 +35,8 @@ Download the given `req.txt` file on you machine and run:
 ```sh
 pip install -r req.txt
 ```
-It'll install all the required libraries on your machine.  You might as well crate a virtual environment on your machine before installing the dependencies by  `python -m venv {your_venv_name}`.  
+It'll install all the required libraries on your machine.  
+You might as well crate a virtual environment on your machine before installing the dependencies by  `python -m venv {your_venv_name}`.  
 
 
 

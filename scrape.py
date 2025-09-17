@@ -5,6 +5,9 @@ from bs4 import BeautifulSoup
 
 # Enter your credentials - the zone name and password  
 AUTH = ''  
+"""
+Here enter yout VPN api key for preventing the websites from blocking you while scraping the site, i used a service provider called "Bright Data" you can check them if you want link is in README.md
+"""
 
 SBR_WEBDRIVER = f'https://{AUTH}@zproxy.lum-superproxy.io:9515'  
   
@@ -49,4 +52,5 @@ def split_dom_content(dom_content, max_length=6000):
   
  
     
+
 

@@ -35,16 +35,21 @@ Download the given `req.txt` file on you machine and run:
 ```sh
 pip install -r req.txt
 ```
+***Note: The `scrape.py` file is currently configured to use a remote Selenium WebDriver service (Bright Data). To run this locally without that service, you will need to modify scrape.py to use a local chromedriver 🔧.***
+
 It'll install all the required libraries on your machine.  
 You might as well crate a virtual environment on your machine before installing the dependencies by:
+
 ```python
 python -m venv {your_venv_name}
 ``` 
+## **2. Clone the Repository 📂**
+Clone this repository to your local machine:
 
-
-
-
-
+```bash
+git clone https://github.com/Anindya4/AI-Web-Scrapper.git
+cd AI-Web-Scrapper
+```
 
 
 

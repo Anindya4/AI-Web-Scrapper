@@ -42,6 +42,7 @@ You might as well crate a virtual environment on your machine before installing 
 
 ```python
 python -m venv {your_venv_name}
+.\{your_venv_name}\Scripts\activate # to activate the venv
 ``` 
 ## **2. Clone the Repository 📂**
 Clone this repository to your local machine:

@@ -34,10 +34,18 @@ To run this project locally, you will need to have Python 🐍 and Ollama 🦙 i
 You must have Ollama installed and running on your machine. You also need to have the `llama3.1` model pulled.  
 ***NOTE: You can use any model you like it doesn't have to be `Llama3.1`***
 
-## Install Ollama from: https://ollama.com/
+ Install Ollama from: https://ollama.com/
 
-## Pull the required model:
+ Pull the required model:
 `ollama pull llama3.1`
+
+```python
+import streamlit as st
+
+st.title("My Awesome App")
+url = st.text_input("Enter a URL:")
+st.write(f"The URL you entered is: {url}")
+```
 
 
 

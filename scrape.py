@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
 
 # Enter your credentials - the zone name and password  
-AUTH = 'brd-customer-hl_807c783d-zone-ai_scrapers:v5ezhjqm8cp7'  
+AUTH = ''  
 
 SBR_WEBDRIVER = f'https://{AUTH}@zproxy.lum-superproxy.io:9515'  
   
@@ -49,3 +49,4 @@ def split_dom_content(dom_content, max_length=6000):
   
  
     
+

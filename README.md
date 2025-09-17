@@ -62,10 +62,13 @@ This will start the web server and open the application in your default web brow
 **Enter URL:** In the text input field, enter the full URL of the website you wish to scrape ➡️🔗.
 
 **1. Scrape Site:** Click the "Scrape site" button. The application will fetch the website's content. 🖱️📄
+
 **2. View Content (Optional):** You can view the cleaned text content from the website by expanding the "View DOM Content" section. 👀
+
 **3. Describe What to Parse:** In the "Describe what you want to parse?" text area, type a clear, natural language description of the information you want to extract. ✍️
  * **Example:** Extract all the links and their text
  * **Example:** List the names of all the speakers and their job titles
+
 **6. Parse Content:** Click the "Parse Content" button. The application will send the content and your request to the AI model and display the extracted information on the screen. ✅📊
 
 
